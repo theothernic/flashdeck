@@ -1,0 +1,34 @@
+@import 'resets';
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+#root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#Content {
+    flex: 1;
+    display: flex;
+
+    &.page-view {
+        margin: 1rem auto;
+        padding: 1rem;
+        width: 50%;
+
+        background: white;
+    }
+
+    &.card-view {
+        align-items: center;
+        justify-content: center;
+    }
+}
